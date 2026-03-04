@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physics-simulator"
+version = "0.1.0"
+description = "Simulate Free Fall, Projectile Motion, and Simple Pendulum with matplotlib"
+authors = [ { name = "ZayThihaAung" } ]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+  "numpy>=1.22",
+  "matplotlib>=3.6",
+  "click>=8.0"
+]
